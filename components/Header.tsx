@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -34,8 +35,15 @@ export default function Header() {
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
-          <Link href="/" className="-m-1.5 p-1.5">
-            <span className="text-2xl font-bold text-blue-800">The Hivals Group</span>
+          <Link href="/" className="-m-1.5 p-1.5 flex items-center gap-3">
+            <Image
+              src="/hivals-logo.png"
+              alt="The Hivals Group"
+              width={40}
+              height={40}
+              className="h-10 w-auto"
+            />
+            <span className="text-2xl font-bold text-blue-800">The Hivals Foundation</span>
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -78,7 +86,14 @@ export default function Header() {
               className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
             >
               <div className="flex items-center justify-between">
-                <Link href="/" className="-m-1.5 p-1.5" onClick={() => setMobileMenuOpen(false)}>
+                <Link href="/" className="-m-1.5 p-1.5 flex items-center gap-2" onClick={() => setMobileMenuOpen(false)}>
+                  <Image
+                    src="/hivals-logo.png"
+                    alt="The Hivals Group"
+                    width={32}
+                    height={32}
+                    className="h-8 w-auto"
+                  />
                   <span className="text-xl font-bold text-blue-800">The Hivals Group</span>
                 </Link>
                 <button

@@ -1,12 +1,12 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
-import { Building2, Briefcase, Shield, LineChart, Leaf, FileText, Users, CheckCircle } from 'lucide-react';
+import { Building2, Briefcase, Shield, LineChart, Leaf, FileText, Users, CheckCircle, TrendingUp } from 'lucide-react';
 import Button from '@/components/Button';
 import ServiceCard from '@/components/ServiceCard';
 
 export const metadata: Metadata = {
   title: 'Our Services | The Hivals Group Limited',
-  description: 'Comprehensive consultancy services including Design & Construction, Project Management, Risk Assessment, Building Surveying, Sustainable Technologies, Contract Management, and Business Support.',
+  description: 'Comprehensive consultancy services including Design & Construction, Project Management, Risk Assessment, Building Surveying, Sustainable Technologies, Contract Management, Business Support, and Asset and Portfolio Management.',
 };
 
 const services = [
@@ -80,32 +80,46 @@ const services = [
       'Sustainable material selection and specification',
     ],
   },
+  // {
+  //   id: 'contract-management',
+  //   icon: FileText,
+  //   title: 'Contract Management',
+  //   description: 'Procurement, contract admin, and stakeholder liaison',
+  //   fullDescription: 'Our contract management services ensure smooth project delivery through expert procurement advice, contract administration, and effective stakeholder management. We protect your interests while maintaining positive relationships with all parties.',
+  //   benefits: [
+  //     'Procurement strategy and tender management',
+  //     'Contract drafting and negotiation',
+  //     'Payment certification and valuations',
+  //     'Variation and change management',
+  //     'Dispute avoidance and resolution',
+  //   ],
+  // },
+  // {
+  //   id: 'business-support',
+  //   icon: Users,
+  //   title: 'Business Support',
+  //   description: 'Business planning, market analysis, and strategic advice for construction professionals',
+  //   fullDescription: 'We provide strategic business support services tailored to construction professionals and companies. From business planning and market analysis to growth strategies and operational improvements, we help you build a successful and sustainable business.',
+  //   benefits: [
+  //     'Business planning and strategy development',
+  //     'Market analysis and opportunity identification',
+  //     'Financial planning and forecasting',
+  //     'Operational efficiency improvements',
+  //     'Growth and expansion strategies',
+  //   ],
+  // },
   {
-    id: 'contract-management',
-    icon: FileText,
-    title: 'Contract Management',
-    description: 'Procurement, contract admin, and stakeholder liaison',
-    fullDescription: 'Our contract management services ensure smooth project delivery through expert procurement advice, contract administration, and effective stakeholder management. We protect your interests while maintaining positive relationships with all parties.',
+    id: 'asset-portfolio-management',
+    icon: TrendingUp,
+    title: 'Asset and Portfolio Management',
+    description: 'Strategic management of property assets and investment portfolios',
+    fullDescription: 'Our Asset and Portfolio Management services help clients maximize the value and performance of their property assets. We provide strategic oversight, performance monitoring, and investment optimization to ensure your real estate portfolio delivers optimal returns while meeting your long-term objectives.',
     benefits: [
-      'Procurement strategy and tender management',
-      'Contract drafting and negotiation',
-      'Payment certification and valuations',
-      'Variation and change management',
-      'Dispute avoidance and resolution',
-    ],
-  },
-  {
-    id: 'business-support',
-    icon: Users,
-    title: 'Business Support',
-    description: 'Business planning, market analysis, and strategic advice for construction professionals',
-    fullDescription: 'We provide strategic business support services tailored to construction professionals and companies. From business planning and market analysis to growth strategies and operational improvements, we help you build a successful and sustainable business.',
-    benefits: [
-      'Business planning and strategy development',
-      'Market analysis and opportunity identification',
-      'Financial planning and forecasting',
-      'Operational efficiency improvements',
-      'Growth and expansion strategies',
+      'Property portfolio analysis and optimization',
+      'Asset performance monitoring and reporting',
+      'Strategic investment planning and advice',
+      'Lifecycle cost analysis and budgeting',
+      'Maintenance and capital expenditure planning',
     ],
   },
 ];
