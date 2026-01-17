@@ -94,7 +94,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <head>
         {/* Additional SEO tags */}
-        <link rel="canonical" href="https://thehivalsfoundation.com" />
+        <link rel="canonical" href="https://www.thehivalsgroup.co.uk" />
       </head>
       <body className={`${inter.variable} antialiased`}>
         <Header />
