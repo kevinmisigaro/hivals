@@ -16,8 +16,8 @@ const contactInfo = [
   {
     icon: Phone,
     title: 'Phone',
-    content: 'Available on request',
-    link: null,
+    content: '+44 7899 623150',
+    link: 'tel:+447899623150',
   },
   {
     icon: MapPin,
