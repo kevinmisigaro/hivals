@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { Mail, Phone, MapPin, Clock, Linkedin, Twitter, Instagram } from 'lucide-react';
+import { Mail, Phone, MapPin, Clock, Linkedin, Twitter, Instagram, FacebookIcon } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Contact Us | The Hivals Group Limited',
@@ -46,6 +46,12 @@ const socialLinks = [
   //   href: '#',
   //   color: 'hover:text-blue-400',
   // },
+  {
+    name: 'Facebook',
+    icon: FacebookIcon,
+    href: 'https://www.facebook.com/profile.php?id=100069650739403',
+    color: 'hover:text-blue-700',
+  },
   {
     name: 'Instagram',
     icon: Instagram,
