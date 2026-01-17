@@ -10,6 +10,7 @@ const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Services', href: '/services' },
   { name: 'Hivals Foundation', href: '/foundation' },
+  { name: 'Donate', href: '/donate' },
   { name: 'About Us', href: '/about' },
   { name: 'News', href: '/news' },
   { name: 'Contact', href: '/contact' },

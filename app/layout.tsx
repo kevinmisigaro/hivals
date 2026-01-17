@@ -10,16 +10,16 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "The Hivals Group Limited | Expert Consultancy Services",
+  title: "The Hivals Foundation | Expert Consultancy Services",
   description: "Multi-disciplinary consultancy offering expert services in Design & Construction, project management, risk assessment, and sustainable solutions.",
   keywords: ["construction consultancy", "project management", "sustainable building", "risk assessment", "building surveying"],
-  authors: [{ name: "The Hivals Group Limited" }],
+  authors: [{ name: "The Hivals Foundation" }],
   openGraph: {
-    title: "The Hivals Group Limited | Expert Consultancy Services",
+    title: "The Hivals Foundation | Expert Consultancy Services",
     description: "Multi-disciplinary consultancy offering expert services in Design & Construction, project management, risk assessment, and sustainable solutions.",
     type: "website",
     locale: "en_GB",
-    siteName: "The Hivals Group Limited",
+    siteName: "The Hivals Foundation",
   },
 };
 

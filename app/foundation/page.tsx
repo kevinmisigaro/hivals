@@ -208,11 +208,11 @@ export default function FoundationPage() {
                     <span className="text-blue-50">Enable sustainable building initiatives</span>
                   </div>
                 </div>
-                <Button href="/contact" variant="secondary" size="lg" className="bg-white text-blue-800 hover:bg-gray-100">
-                  Get in Touch to Support
+                <Button href="/donate" variant="secondary" size="lg" className="bg-white text-blue-800 hover:bg-gray-100">
+                  Donate Now
                 </Button>
                 <p className="text-sm text-blue-200 mt-4">
-                  Payment integration coming soon. Contact us to discuss donation options.
+                  Learn more about how your donation makes an impact
                 </p>
               </div>
               <div className="relative h-64 lg:h-auto">
