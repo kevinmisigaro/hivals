@@ -34,22 +34,22 @@ const contactInfo = [
 ];
 
 const socialLinks = [
-  {
-    name: 'LinkedIn',
-    icon: Linkedin,
-    href: '#',
-    color: 'hover:text-blue-600',
-  },
-  {
-    name: 'Twitter',
-    icon: Twitter,
-    href: '#',
-    color: 'hover:text-blue-400',
-  },
+  // {
+  //   name: 'LinkedIn',
+  //   icon: Linkedin,
+  //   href: '#',
+  //   color: 'hover:text-blue-600',
+  // },
+  // {
+  //   name: 'Twitter',
+  //   icon: Twitter,
+  //   href: '#',
+  //   color: 'hover:text-blue-400',
+  // },
   {
     name: 'Instagram',
     icon: Instagram,
-    href: 'https://instagram.com/thehivalsgroup',
+    href: 'https://instagram.com/thehivalsfoundation',
     color: 'hover:text-pink-600',
   },
 ];
