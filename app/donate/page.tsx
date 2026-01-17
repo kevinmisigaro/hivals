@@ -36,7 +36,7 @@ const donationMethods = [
     title: 'Bank Transfer',
     description: 'Direct bank transfer for one-time or recurring donations',
     details: [
-      'Account Name: The Hivals Foundation',
+      'Account Name: The Hivals Group Limited',
       'Account Number: 25674711',
       'Sort Code: 04-06-05',
       'IBAN: GB58 CLRB 0406 0525 6747 11',
