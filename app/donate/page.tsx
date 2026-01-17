@@ -46,10 +46,10 @@ const donationMethods = [
   },
   {
     title: 'Cheque',
-    description: 'Send a cheque made payable to The Hivals Foundation',
+    description: 'Send a cheque made payable to The Hivals Group Limited',
     details: [
-      'Payable to: The Hivals Foundation',
-      'Mail to: [Address to be confirmed]',
+      'Payable to: The Hivals Group Limited',
+      'Mail to: info@thehivalsgroup.co.uk',
       'Include your name and email for acknowledgment',
     ],
   },
