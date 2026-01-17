@@ -21,6 +21,11 @@ export const metadata: Metadata = {
     locale: "en_GB",
     siteName: "The Hivals Foundation",
   },
+    icons: {
+    icon: "/hivals-svg.svg",
+    shortcut: "/hivals-svg.svg",
+    apple: "/hivals-svg.svg",
+  },
 };
 
 export default function RootLayout({
