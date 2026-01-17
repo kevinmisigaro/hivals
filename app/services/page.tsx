@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
-import { Building2, Briefcase, Shield, LineChart, Leaf, FileText, Users, CheckCircle, TrendingUp } from 'lucide-react';
+import { Building2, Briefcase, Shield, LineChart, Leaf, CheckCircle, TrendingUp } from 'lucide-react';
 import Button from '@/components/Button';
 import ServiceCard from '@/components/ServiceCard';
 
