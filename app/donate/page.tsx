@@ -4,7 +4,7 @@ import { Heart, HandHeart, CheckCircle, CreditCard, Building, Mail } from 'lucid
 import Button from '@/components/Button';
 
 export const metadata: Metadata = {
-  title: 'Donate | The Hivals Foundation',
+  title: 'Donate',
   description: 'Support The Hivals Foundation in relieving homelessness, building resilient communities, and promoting sustainable futures. Your donation makes a real difference.',
 };
 

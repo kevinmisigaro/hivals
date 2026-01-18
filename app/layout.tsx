@@ -44,7 +44,10 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "The Hivals Foundation | Expert Consultancy Services",
+    title: {
+      default: "The Hivals Foundation",
+      template: "%s | The Hivals Foundation"
+    },
     description: "Multi-disciplinary consultancy offering expert services in Design & Construction, project management, risk assessment, and sustainable solutions.",
     type: "website",
     locale: "en_GB",

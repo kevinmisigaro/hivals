@@ -4,7 +4,7 @@ import { Target, Award, Users, CheckCircle, Lightbulb, Shield, Heart } from 'luc
 import Button from '@/components/Button';
 
 export const metadata: Metadata = {
-  title: 'About Us | The Hivals Group Limited',
+  title: 'About Us',
   description: 'Learn about The Hivals Group Limited - a multi-disciplinary consultancy combining technical expertise with practical experience to deliver innovative, sustainable solutions.',
 };
 

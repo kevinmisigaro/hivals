@@ -1,8 +1,14 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Building2, Briefcase, Shield, LineChart, Leaf, FileText, ArrowRight, Heart } from "lucide-react";
 import Button from "@/components/Button";
 import ServiceCard from "@/components/ServiceCard";
+
+export const metadata: Metadata = {
+  title: "Expert Consultancy Services",
+  description: "Multi-disciplinary consultancy offering expert services in Design & Construction, project management, risk assessment, and sustainable solutions.",
+};
 
 const services = [
   {

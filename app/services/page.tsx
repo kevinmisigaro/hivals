@@ -5,7 +5,7 @@ import Button from '@/components/Button';
 import ServiceCard from '@/components/ServiceCard';
 
 export const metadata: Metadata = {
-  title: 'Our Services | The Hivals Group Limited',
+  title: 'Our Services',
   description: 'Comprehensive consultancy services including Design & Construction, Project Management, Risk Assessment, Building Surveying, Sustainable Technologies, Contract Management, Business Support, and Asset and Portfolio Management.',
 };
 

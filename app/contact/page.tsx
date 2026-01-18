@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { Mail, Phone, MapPin, Clock, Linkedin, Twitter, Instagram, FacebookIcon } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Contact Us | The Hivals Group Limited',
+  title: 'Contact Us',
   description: 'Get in touch with The Hivals Group Limited. Contact us for expert consultancy services in construction, project management, and sustainable solutions.',
 };
 

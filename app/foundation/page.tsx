@@ -4,7 +4,7 @@ import { Heart, Home, Users, Leaf, HandHeart, Target, ArrowRight } from 'lucide-
 import Button from '@/components/Button';
 
 export const metadata: Metadata = {
-  title: 'Hivals Foundation | The Hivals Group Limited',
+  title: 'Hivals Foundation',
   description: 'The Hivals Foundation is dedicated to relieving homelessness, building resilient communities, and promoting sustainable futures through charitable work and pro-bono services.',
 };
 
