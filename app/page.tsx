@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { Building2, Briefcase, Shield, LineChart, Leaf, FileText, ArrowRight, Heart } from "lucide-react";
+import { Building2, Briefcase, Shield, LineChart, Leaf, GraduationCap, ArrowRight, Heart } from "lucide-react";
 import Button from "@/components/Button";
 import ServiceCard from "@/components/ServiceCard";
 
@@ -42,10 +42,10 @@ const services = [
     href: "/services#sustainable-technologies",
   },
   {
-    icon: FileText,
-    title: "Contract Management",
-    description: "Expert procurement, contract administration, and stakeholder liaison.",
-    href: "/services#contract-management",
+    icon: GraduationCap,
+    title: "Training",
+    description: "Expert-led courses and workshops to boost professional skills.",
+    href: "/services#training",
   },
 ];
 

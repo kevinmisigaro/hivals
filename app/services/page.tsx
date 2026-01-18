@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
-import { Building2, Briefcase, Shield, LineChart, Leaf, CheckCircle, TrendingUp } from 'lucide-react';
+import { Building2, Briefcase, Shield, LineChart, Leaf, CheckCircle, TrendingUp, GraduationCap } from 'lucide-react';
 import Button from '@/components/Button';
 import ServiceCard from '@/components/ServiceCard';
 
@@ -122,6 +122,20 @@ const services = [
       'Maintenance and capital expenditure planning',
     ],
   },
+  {
+    id: 'training',
+    icon: GraduationCap,
+    title: 'Training',
+    description: 'Expert-led courses and workshops to boost professional skills',
+    fullDescription: 'Training tailored to boost skills in project and contract management, business analysis, procurement, health and safety, and leadership with our expert-led courses and workshops. Our training programmes are designed to equip professionals with practical knowledge and industry-recognised competencies that drive career growth and organisational success.',
+    benefits: [
+      'Project and contract management training',
+      'Business analysis and procurement skills development',
+      'Health and safety certification courses',
+      'Leadership and management workshops',
+      'Customised in-house training programmes',
+    ],
+  },
 ];
 
 export default function ServicesPage() {
@@ -144,7 +158,7 @@ export default function ServicesPage() {
       <section className="py-20 bg-white">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-            {services.slice(0, 6).map((service) => (
+            {services.map((service) => (
               <ServiceCard
                 key={service.id}
                 icon={service.icon}
@@ -197,6 +211,7 @@ export default function ServicesPage() {
                         index === 3 ? '1560518883-ce09059eeffa' :
                         index === 4 ? '1473341304170-971dccb5ac1e' :
                         index === 5 ? '1450101499163-c8848c66ca85' :
+                        index === 6 ? '1524178232363-1fb2b075b655' :
                         '1521791136064-7986c2920216'
                       }?q=80&w=2070`}
                       alt={service.title}
