@@ -126,8 +126,8 @@ const services = [
     id: 'training',
     icon: GraduationCap,
     title: 'Training',
-    description: 'Expert-led courses and workshops to boost professional skills',
-    fullDescription: 'Training tailored to boost skills in project and contract management, business analysis, procurement, health and safety, and leadership with our expert-led courses and workshops. Our training programmes are designed to equip professionals with practical knowledge and industry-recognised competencies that drive career growth and organisational success.',
+    description: 'Training tailored to client needs, boost skills in project and contract management',
+    fullDescription: 'Training tailored to client needs, boost skills in project and contract management, business analysis, procurement, health and safety, and leadership with our expert-led courses and workshops.',
     benefits: [
       'Project and contract management training',
       'Business analysis and procurement skills development',
