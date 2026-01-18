@@ -13,6 +13,9 @@ const navigation = {
     { name: 'Hivals Foundation', href: '/foundation' },
     { name: 'News & Updates', href: '/news' },
     { name: 'Contact', href: '/contact' },
+    { name: 'Privacy Policy', href: '/privacy' },
+    { name: 'Health & Safety Policy', href: '/health-and-safety' },
+    { name: 'Modern Slavery Statement', href: '/modern-slavery' },
   ],
   social: [
     {
