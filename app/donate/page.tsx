@@ -68,6 +68,14 @@ const impactAreas = [
     title: 'Sustainable Buildings',
     description: 'Green building expertise for environmental charities and sustainable development projects',
   },
+  {
+    title: 'Clean Water Scheme',
+    description: 'Providing access to safe, clean drinking water through sustainable water infrastructure and purification systems',
+  },
+  {
+    title: 'Rural Electrification Scheme',
+    description: 'Bringing reliable electricity to rural communities through renewable energy solutions and grid expansion',
+  },
 ];
 
 export default function DonatePage() {
