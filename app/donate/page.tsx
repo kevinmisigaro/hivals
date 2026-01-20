@@ -70,11 +70,15 @@ const impactAreas = [
   },
   {
     title: 'Clean Water Scheme',
-    description: 'Providing access to safe, clean drinking water through sustainable water infrastructure and purification systems',
+    description: 'We recognise that access to safe, clean water is not a luxury, but a fundamental human right essential for the health, dignity, and future of our communities. Through our Clean Water Scheme, we commit to eliminating the water borne barriers that hinder a community\'s ability to thrive',
   },
   {
     title: 'Rural Electrification Scheme',
     description: 'Bringing reliable electricity to rural communities through renewable energy solutions and grid expansion',
+  },
+  {
+    title: 'Child Health Development',
+    description: 'We believe every child has the fundamental right to grow, learn, and thrive in a safe and healthy environment. We are committed to fostering the physical, cognitive, and emotional development of children by providing early interventions and nurturing care during their most critical formative years.',
   },
 ];
 
