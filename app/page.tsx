@@ -136,6 +136,30 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="py-20 bg-gradient-to-br from-blue-900 to-blue-800 text-white">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-3xl text-center">
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-6">
+              Request a Consultation
+            </h2>
+            <p className="text-xl text-blue-100 mb-10 leading-relaxed">
+              Have a project in mind? Our expert team is ready to discuss your requirements and
+              provide tailored solutions. Schedule a consultation with us today to explore how we
+              can help bring your vision to life.
+            </p>
+            <Button
+              href="/contact"
+              variant="secondary"
+              size="lg"
+              className="bg-white text-blue-800 hover:bg-gray-100"
+            >
+              Request Consultation
+              <ArrowRight className="ml-2 h-5 w-5" aria-hidden="true" />
+            </Button>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 bg-emerald-700 text-white">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">

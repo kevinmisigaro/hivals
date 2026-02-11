@@ -118,7 +118,12 @@ export default function Footer() {
                 </li>
                 <li className="flex items-start gap-3">
                   <MapPin className="h-5 w-5 text-gray-400 flex-shrink-0 mt-0.5" aria-hidden="true" />
-                  <span className="text-sm leading-6 text-gray-300">United Kingdom</span>
+                  <address className="text-sm leading-6 text-gray-300 not-italic">
+                    167-189 Great Portland Street<br />
+                    5th Floor<br />
+                    England<br />
+                    W1W 5PF
+                  </address>
                 </li>
               </ul>
             </div>
