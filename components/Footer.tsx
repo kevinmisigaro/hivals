@@ -12,6 +12,7 @@ const navigation = {
     { name: 'About Us', href: '/about' },
     { name: 'Hivals Foundation', href: '/foundation' },
     { name: 'News & Updates', href: '/news' },
+    { name: 'FAQ', href: '/faq' },
     { name: 'Contact', href: '/contact' },
     { name: 'Privacy Policy', href: '/privacy' },
     { name: 'Health & Safety Policy', href: '/health-and-safety' },
@@ -121,7 +122,7 @@ export default function Footer() {
                   <address className="text-sm leading-6 text-gray-300 not-italic">
                     167-189 Great Portland Street<br />
                     5th Floor<br />
-                    England<br />
+                    London, United Kingdom<br />
                     W1W 5PF
                   </address>
                 </li>
